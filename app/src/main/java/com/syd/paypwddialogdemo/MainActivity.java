@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         btnShowPwdDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pwdInputView = new PasswordInputView(MainActivity.this, "100.00", payWayList);
+                pwdInputView = new PasswordInputView(MainActivity.this, payWayList);
                 pwdInputView.setOnPwdInputListener(new OnPwdInputListener() {
                     @Override
                     public void onPwdInput(String password) {
