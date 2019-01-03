@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_pay_way_icon"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_pay_cash" />
+
+        <TextView
+            android:id="@+id/tv_pay_way_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="现金支付"
+            android:textColor="#888888"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_pay_way_ok"
+            android:layout_width="24dp"
+            android:layout_height="16dp"
+            android:background="@drawable/icon_pay_way_ok" />
+
+    </LinearLayout>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"/>-->
+
+</LinearLayout>
